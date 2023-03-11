@@ -9,7 +9,7 @@ int cbinsearch(int *arr, int size, int value) {
     int count2 = 0;
     int middleCrossing = size / 2;
     int i = 0;
-    if (size % 2 != 0 ) {
+    if (size % 2 != 0) {
         count2 += ApproriateTarget(arr, value, size - 1);
     }
     while (i < middleCrossing) {
